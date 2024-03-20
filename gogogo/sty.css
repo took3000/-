@@ -60,7 +60,7 @@ border-radius: 4px;
 line-height: 26px;
 text-align: justify;
 font-size: 14px;
-color: #1772f6;
+color: #1772f6;transition-duration: 0.5s;
 }
 
 
@@ -70,7 +70,7 @@ border-radius: 8px;
 line-height: 28px;
 text-align: justify;
 font-size: 16px;
-color: #fff;
+color: #fff;transition-duration: 2s;
 }
 
 .wx h3{
