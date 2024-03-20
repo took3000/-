@@ -65,12 +65,10 @@ color: #1772f6;transition-duration: 0.5s;
 
 
 .wx:hover{
-background: #000;
-border-radius: 8px;
-line-height: 28px;
-text-align: justify;
-font-size: 16px;
-color: #fff;transition-duration: 2s;
+background:  #1772f6;
+border-radius: 12px;
+font-size: 15px;
+color: #fff;transition-duration: 1s;
 }
 
 .wx h3{
