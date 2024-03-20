@@ -72,7 +72,7 @@ color: #fff;transition-duration: 1s;
 }
 
 .wx:hover img{
-transform: scale(0.9); transition-duration: 1s;
+transform: scale(0.98); transition-duration: 1s;
 }
 .wx h3{
 margin-bottom:1em
