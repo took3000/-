@@ -7,7 +7,7 @@ column-rule: 1px dashed #0000000d; /* 边框 */
 
  .Pox {
 margin:4.2em 0 1em 0;
-             column-width: 672px; // 宽度200px
+             column-width: 480px; // 宽度200px
         }
 
 .top{
@@ -55,13 +55,12 @@ border-radius: 4px;
         }
 .wx{
 padding:1em;
-margin-top:1em;
 background: #F4F5F7;
 border-radius: 4px;
 line-height: 26px;
 text-align: justify;
 font-size: 14px;
-color: #1F1F1F;
+color: #1772f6;
 }
 
 .wx h3{
@@ -71,7 +70,9 @@ margin-bottom:1em
 .wx img{
 margin-bottom:1em；margin-bottom:0.6em;border:2px solid #fff
 }
-
+.wx img:hover{
+margin-bottom:3em；
+}
 .code-input {
   background:#fff;
   border-radius: 10px;
