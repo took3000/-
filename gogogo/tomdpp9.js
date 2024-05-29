@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     // 使用 Fetch API 读取语录文件
-fetch('quotesWithAuthorsAndDates2.txt')
+fetch('https://wa.bizihu.com/yulu/zuzutooga.txt')
 .then(response => response.text())
 .then(quotes => {
     const quoteArray = quotes.split('\n'); // 将语录文件内容按行分割成数组
