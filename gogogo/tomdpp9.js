@@ -28,11 +28,10 @@ fetch('quotesWithAuthorsAndDates2.txt')
         div.innerHTML = `
          <a class="article" href="https://caiyun.139.com/m/i?105CfJsHH2CFC" target="_blank" >
               
-              <div class="date">#手机壁纸</div>
-              <div class="title">壁纸湖网首页壁纸打包</div>
+              <div class="date">${date}</div>
+              <div class="title">${text}</div>
               <div class="desc">
-		      数量：450余张<br>
-		      备注：文件夹版和压缩包版的图是一样的
+		      ${author || '点击跳转资源'}
               </div>
             </a>`; // 构建没有作者信息时的元素内容
       }
