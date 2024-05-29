@@ -10,31 +10,29 @@ fetch('https://bizihu.com/nice/zuzutooga.txt', {
     quoteArray.forEach(quote => {
       const parts = quote.split(' | '); // 使用特定分隔符 " | " 将每行内容分割成部分
       const text = parts[0]; // 获取语录文本
-      const author = parts[1]; // 获取作者
-      const date = parts[2];
+      const author = parts[2]; // 获取作者
+      const date = parts[1];
       const div = document.createElement('div'); // 创建一个新的元素
       div.classList.add('quote'); // 为元素添加类名
 
       // 如果作者不为空
       if (author) {
         div.innerHTML = `
-         <a class="article" href="${author || '#'}" target="_blank" >
+         <a class="article" href="${date || '#'}" target="_blank" >
               
               <div class="date">资源福利</div>
               <div class="title">${text}</div>
               <div class="desc">
-		      ${date || '暂无备注'}
+		      ${author}
               </div>
             </a>`; // 构建有作者信息的元素内容
       } else {
         div.innerHTML = `
-         <a class="article" href="https://caiyun.139.com/m/i?105CfJsHH2CFC" target="_blank" >
+         <a class="article" href="${date || '#'}" target="_blank" >
               
-              <div class="date">${date}</div>
+              <div class="date">资源福利</div>
               <div class="title">${text}</div>
-              <div class="desc">
-		      ${author || '点击跳转资源'}
-              </div>
+              
             </a>`; // 构建没有作者信息时的元素内容
       }
 
