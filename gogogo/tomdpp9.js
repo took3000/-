@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     // 使用 Fetch API 读取语录文件
-fetch('https://bizihu.com/nice/zuzutooga.txt', {
+fetch('http://zi.bizihu.com/yulu/zuzutooga.txt', {
       mode: 'no-cors'
     })
 .then(response => response.text())
